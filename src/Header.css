@@ -1,0 +1,40 @@
+.header-list > li {
+  display: inline;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.header-list > li > a {
+  text-decoration: none;
+  color: black;
+}
+
+.left-nav > .header-list {
+  font-weight: bold;
+}
+
+.header-list > li :hover {
+  cursor: pointer;
+  text-decoration: underline blue;
+  color: blue;
+}
+
+.menu {
+  width: 900px;
+  margin: 0 auto;
+  height: 100px;
+}
+
+.left-nav {
+  float: left;
+  margin: 20px;
+}
+
+.right-nav {
+  float: right;
+  margin: 20px;
+}
+
+a {
+  font-size: 25px;
+}
